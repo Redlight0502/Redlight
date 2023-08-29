@@ -1,0 +1,21 @@
+.Back_Btn a {
+  text-decoration: none;
+  font-size: 2vw;
+  padding: 0 ;
+}
+
+.Login_Page_Btn button {
+  text-decoration: none;
+  padding: 2vw;
+  font-size: 2vw;
+  padding: 0 ;
+  margin: 2px;
+  height: 4vw;
+  width:  8vw;
+}
+
+.Other_Func {
+  font-size: 20px;
+  color: blue;
+  text-emphasis: none;
+}
