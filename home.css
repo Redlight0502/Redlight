@@ -1,0 +1,20 @@
+.Back_Btn a {
+  text-decoration: none;
+  font-size: 2vw;
+  padding: 0 ;
+}
+
+.Func_Btn {
+  background: wheat;
+  font-size: 20px;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.Other_Func {
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+}
