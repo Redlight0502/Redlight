@@ -11,7 +11,7 @@ header p {
     top:0;
     font-size: 2vw;
     display: flex;
-    line-height: -1px;
+    line-height: 1px;
 }
 
 header li {
