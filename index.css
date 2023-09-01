@@ -1,15 +1,17 @@
 header {
     background: #231C1A;
-    height: 80px;
+    height: 5vw;
     width: 100%;
 }
 
-h1 {
+header p {
     color: white;
     position: absolute;
     left: 20px;
     top:0;
-    line-height: 60px;
+    font-size: 2vw;
+    display: flex;
+    line-height: -1px;
 }
 
 header li {
