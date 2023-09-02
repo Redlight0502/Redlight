@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ZH-HK">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>紅光Q&A --Beta--</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <p>紅光Q&A --Beta v0.13--</p>
+      <nav>
+        <ul>
+          <li><a href="#">繁中</a></li>
+          <li><a href="#">簡中</a></li>
+          <li><a href="#">Eng</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="Other_Func">
+        <a href="home.html">其他東西*目前只可用這個*</a>
+      </div>
+      <div class="container">
+        <h1 class="label">User Login</h1>
+        <form
+          class="login_form"
+          action="home.html"
+          method="post"
+          name="form"
+          onsubmit="return validated()"
+        >
+          <div class="font">Email or Phone</div>
+          <input autocomplete="off" type="text" name="email" />
+          <div id="email_error">Please fill up your Email or Phone</div>
+          <div class="font font2">Password</div>
+          <input type="password" name="password" />
+          <div id="pass_error">Please fill up your Password</div>
+          <button type="submit">Login</button>
+        </form>
+      </div>
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
